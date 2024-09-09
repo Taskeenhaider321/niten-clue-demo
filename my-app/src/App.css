@@ -41,3 +41,39 @@
     transform: rotate(360deg);
   }
 }
+
+/* Basic scrollbar styling */
+::-webkit-scrollbar {
+  width: 12px; /* Width of the scrollbar */
+  height: 12px; /* Height for horizontal scrollbar */
+}
+
+/* Track styling */
+::-webkit-scrollbar-track {
+  background: #99EBD8; /* Background of the track */
+}
+
+/* Thumb styling */
+::-webkit-scrollbar-thumb {
+  background: #99EBD8; /* Thumb will be invisible */
+}
+
+/* Optional: Add a rounded corner effect */
+::-webkit-scrollbar-thumb {
+  border-radius: 10px; /* Adjust the radius as needed */
+}
+
+/* Optional: Track and thumb for horizontal scrollbar */
+::-webkit-scrollbar:horizontal {
+  height: 12px; /* Height for horizontal scrollbar */
+}
+
+::-webkit-scrollbar-thumb:horizontal {
+  background: transparent; /* Thumb for horizontal scrollbar */
+  border-radius: 10px; /* Rounded corners for horizontal scrollbar */
+}
+
+::-webkit-scrollbar-track:horizontal {
+  background: transparent; /* Track for horizontal scrollbar */
+}
+
